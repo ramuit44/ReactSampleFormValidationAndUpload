@@ -1,0 +1,39 @@
+:root,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    align-items: flex-start;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    line-height: 1.5;
+
+    @media (min-width: 500px) {
+        align-items: center;
+    }
+}
+
+img {
+    max-width: 100%;
+}

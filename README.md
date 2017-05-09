@@ -1,3 +1,1 @@
-yarn 
-yarn start
-yarn build
+yarn && yarn start
